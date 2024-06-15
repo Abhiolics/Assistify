@@ -6,6 +6,7 @@ import WordPullUp from "./magicui/word-pul-up";
 import Ripple from "./magicui/ripple";
 import RetroGrid from "./magicui/retro-grid";
 import Link from "next/link";
+import { CoolMode } from "./magicui/cool-mode";
 
 export default async function BoxRevealDemo() {
   return (
@@ -42,6 +43,7 @@ export default async function BoxRevealDemo() {
       <BoxReveal boxColor={"#5046e6"} duration={0.5}>
         <div className="mt-3">
             <Link href="https://www.instagram.com/assistify.studio" target="blank">
+         
         <Button className=" bg-[#5046e6] text-white hover:text-black border hover:border-blue-600">Explore
     
         </Button></Link> </div> 
