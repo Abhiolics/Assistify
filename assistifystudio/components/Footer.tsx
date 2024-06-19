@@ -20,7 +20,7 @@ const Footer = () => {
                 </CoolMode>
               <h2 className="text-2xl font-semibold "><span className="text-orange-400">Assistify </span>Studio.</h2>
               <p className="text-green-600 font-semibold">Turning ideas into intuitive experiences.</p>
-              <p className="text-lg mt-4  backdrop-filter backdrop-blur-lg rounded-lg">Let's work together and create something amazing. Feel free to reach out! assistify.pvt.ltd</p>
+              <p className="text-lg mt-4  backdrop-filter backdrop-blur-lg rounded-lg">Let's work together and create something amazing. Feel free to reach out! :)</p>
               
             </div>
             <div className="flex flex-col">

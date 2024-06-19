@@ -11,14 +11,14 @@ export default function MagicCardDemo() {
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-1 p-12 ">
-      <div className="rounded-full">
-        <h1 className="text-center font-bold text-4xl mb-10 backdrop-filter backdrop-blur-lg py-2 rounded-3xl">
+      <div className="rounded-full ">
+        <h1 className="text-center font-bold text-4xl mb-10 py-2 rounded-3xl">
           Our Process to Solve Any Problem
         </h1>
       </div>
       <MagicContainer
         className={
-          "flex h-[500px] w-full flex-col gap-4 lg:h-[250px] lg:flex-row "
+          "flex h-ful w-full flex-col gap-4 lg:h-[250px] lg:flex-row "
         }
       >
         <MagicCard className="flex w-full  cursor-pointer flex-col items-center justify-center overflow-hidden p-20 shadow-2xl">
@@ -26,7 +26,7 @@ export default function MagicCardDemo() {
 <h1 className="font-semibold text-2xl">Step 1</h1><FcMindMap  size={25}/>
 </div>
 <p className="text-sm  sm:text[5px]"><span className="font-bold">Consultation: </span>We begin with an in-depth consultation to understand your goals, brand, and vision. This helps us align our creativity and technical expertise with your needs.
-<br /><span className="font-bold">Research & Analysis:</span> We conduct thorough research on your industry, competitors, and target audience to ensure our designs and solutions stand out.
+{/* <br /><span className="font-bold">Research & Analysis:</span> We conduct thorough research on your industry, competitors, and target audience to ensure our designs and solutions stand out. */}
 <br /><span className="font-bold">Strategy & Planning: </span>We create a strategic plan outlining the project scope, timeline, and deliverables, ensuring transparency and clear expectations from the start.</p>
           <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_120%,rgba(120,119,198,0.3),rgba(255,255,255,0))]" />
         </MagicCard>

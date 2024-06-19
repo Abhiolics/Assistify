@@ -21,13 +21,13 @@ export default async function BoxRevealDemo() {
       <BoxReveal boxColor={"#5046e6"} duration={0.5}>
         <h2 className="mt-[.5rem] text-[1rem]">
           ONE Stop for{" "}
-          <span className="text-[#5046e6]">Designers & Developers</span>
+          <span className="text-[#5046e6] font-bold">Designers & Developers</span>
         </h2>
       </BoxReveal>
 
       <BoxReveal boxColor={"#5046e6"} duration={0.5}>
         <div className="mt-[1.5rem]">
-          <p>
+          <p className="font-semibold">
             -&gt; 20+ Happy Clients we are closed till now by providing services,
             <span className="font-semibold text-[#5046e6]"> Logo Design</span>,
             <span className="font-semibold text-[#5046e6]"> Graphic Design</span>,
