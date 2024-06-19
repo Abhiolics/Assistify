@@ -49,8 +49,9 @@ export default async function BoxRevealDemo() {
         </Button></Link> </div> 
         
       </BoxReveal>
-    
     </div>
+
+  
     <RetroGrid/>
     </div>
   );

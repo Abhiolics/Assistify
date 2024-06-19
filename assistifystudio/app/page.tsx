@@ -9,6 +9,7 @@ import Approach from "@/components/Approach"
 import Process from "@/components/Process"
 import Tech from "@/components/Tech"
 import Footer from "@/components/Footer"
+import Clients from "@/components/Clients"
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
   {/* <Feature/> */}
   <Process/>
   <Tech/>
+  <Clients/>
   <Testimonials/>
   <Footer/>
   </main>

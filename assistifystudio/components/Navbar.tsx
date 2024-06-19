@@ -6,6 +6,7 @@ import { PiPhoneCallThin } from "react-icons/pi";
 import { GiBugleCall } from "react-icons/gi";
 import { TbMessageReport } from "react-icons/tb";
 import { BsClipboardData } from "react-icons/bs";
+import { LuPhoneCall } from "react-icons/lu";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
@@ -23,7 +24,7 @@ export default function DockDemo() {
         <BsClipboardData size={25}  />
         </DockIcon>
         <DockIcon>
-        <PiPhoneCallThin size={25}  />
+        <LuPhoneCall size={25}  />
         </DockIcon>
         <DockIcon>
         <TbMessageReport size={25}  />

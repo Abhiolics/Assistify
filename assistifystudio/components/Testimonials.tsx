@@ -4,40 +4,40 @@ import Image from "next/image";
 
 const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://avatar.vercel.sh/jack",
+    name: "Vaibhav Tirpathi",
+    username: "@Vaibhavtirpathi",
+    body: "We approached Assitify Studio for a complete rebranding, including a new logo and website. The results were beyond our expectations. The new design is fresh, modern, and truly represents our mission. We couldn't be happier!",
+    img: "./empty.avif",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://avatar.vercel.sh/jill",
+    name: "Alok Dubey",
+    username: "@dubey.alok19",
+    body: "From start to finish, [Your Startup Name] delivered a seamless process. They listened to our needs, provided valuable insights, and delivered a stunning e-commerce site. Our online sales have improved dramatically.",
+    img: "./empty.avif",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/john",
+    name: "Abhishek Singh",
+    username: "@abhisheksingh09",
+    body: "Assistify Studio handled the design and development of our complex web platform flawlessly. Their technical expertise and creative vision resulted in a product we're proud of.",
+    img: "./empty.avif",
   },
   {
-    name: "Jane",
-    username: "@jane",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jane",
+    name: "Shubham Pandey",
+    username: "@shubh16",
+    body: "Flawless handling of complex web platform design and development.",
+    img: "./empty.avif",
   },
   {
     name: "Jenny",
-    username: "@jenny",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jenny",
+    username: "@jennyfer",
+    body: "Results exceeded our expectations, fresh and modern design",
+    img: "./empty.avif",
   },
   {
-    name: "James",
-    username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/james",
+    name: "Arpit Thakur",
+    username: "@arpitsingh01",
+    body: "Professional logo and brand identity, highly skilled and creative team.",
+    img: "./empty.avif",
   },
 ];
 
@@ -66,7 +66,7 @@ const ReviewCard = ({
       )}
     >
       <div className="flex flex-row items-center gap-2">
-        <img className="rounded-full" width="32" height="32" alt="" src={img} />
+        <img className="rounded-full" width="30" height="30" alt="" src={img} />
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium dark:text-white">
             {name}
